@@ -12,7 +12,7 @@ st.write("Predict diabetes risk using your trained model (Pickle).")
 # -----------------------------
 # Load the trained model from Pickle
 # -----------------------------
-with open("diabetes_model.pkl", "rb") as f:
+with open("model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # -----------------------------
@@ -88,3 +88,4 @@ if st.button("Predict"):
         st.success("🟢 Low Diabetes Risk")
 
     st.info("Model loaded from local Pickle file")
+

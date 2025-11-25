@@ -106,4 +106,4 @@ if st.button("Predict"):
     else:
         st.success("🟢 Low Diabetes Risk")
     
-    st.info("Model loaded from Pickle file")
+
